@@ -12,7 +12,7 @@ const Register = () => {
     return (
         <div className='bg-gray-200 h-screen flex items-center justify-center gap-3 flex-col'>
             <form
-                className='flex bg-gray-500 flex-col gap-5 p-8 rounded shadow-sm border w-80 '
+                className='flex bg-gray-800 flex-col gap-5 p-8 rounded shadow-md border w-[300px] md:w-[400px] '
                 onSubmit={handleSubmit}>
                 <input
                     type="text"
